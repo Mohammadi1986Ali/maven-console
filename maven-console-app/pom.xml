@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>maven-console</artifactId>
-        <groupId>com.ai4everyone.tutorial</groupId>
+        <groupId>com.nexora.software</groupId>
         <version>1.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -24,7 +24,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.ai4everyone.tutorial.app.Application</mainClass>
+                            <mainClass>com.nexora.software.app.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -34,12 +34,5 @@
                 <artifactId>maven-dependency-plugin</artifactId>
             </plugin>
         </plugins>
-
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
     </build>
 </project>

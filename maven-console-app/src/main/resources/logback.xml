@@ -10,7 +10,7 @@
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>${basedir}/${LOG_DIR}/${LOG_FILE}.log</file>
+        <file>${LOG_DIR}/${LOG_FILE}.log</file>
         <append>true</append>
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{5} - %msg%n</pattern>
@@ -29,7 +29,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.ai4everyone.tutorial" level="INFO" additivity="false">
+    <logger name="com.nexora.software" level="INFO" additivity="false">
         <appender-ref ref="CONTAINER"/>
     </logger>
 
